@@ -15,7 +15,7 @@ RUN mkdir -p /home/pyuser/diagrams
 USER pyuser
 
 # Install diagrams with pip
-RUN pip install diagrams==0.19.1
+RUN pip install diagrams==0.20.0
 
 # Change directory
 WORKDIR /home/pyuser/diagrams
